@@ -1,17 +1,18 @@
 $(document).ready(loadPage);
+
 var target = 0;
-var loadPage = function (){
+function loadPage (){
 
 // Elementos
 var $buttons = $(".control");
 var $previous = $(".previous");
 var $next = $(".next");
-};
+
 //Eventos
 $buttons.click(changeImage);
 $previous.click(previousImage);
 $next.click(nextImage);
-
+};
 var changeImage = function () {
     target = parseInt($(this).data("target"));
     showImage(target);
