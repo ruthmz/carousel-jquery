@@ -1,10 +1,11 @@
 *{
-    background-color: #023544;
-    text-align: center;
+    background-color: #5b5858;
+    text-align:center;
 }
 
-h1 {
-    font-family: Arial, Helvetica, sans-serif
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
 }
 img{
     border-radius: 10px;
@@ -17,7 +18,7 @@ img{
     display: block;
 }
 .control{
-    width:20xp;
+    width:20px;
     height: 20px;
     margin: 10px;
     border:1px solid white;
